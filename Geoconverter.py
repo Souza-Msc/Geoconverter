@@ -40,7 +40,7 @@ def get_parameters():
     required_param_group = parser.add_argument_group('Required Options')
 
     required_param_group.add_argument('--input_file','-i', action='store',
-	help="\n Table (.csv, .txt, .xlsx.) containing the soon to be converted coordenates\n\n")
+	help="\n Table (.csv, .txt, .xlsx.) containing the soon to be converted coordinates\n\n")
 
     required_param_group.add_argument('--longitude','-lon', default = 'Longitude',
 	help="\n User-defined column name for the longitude data (default = 'Longitude')\n\n")
@@ -76,7 +76,7 @@ def get_parameters():
 # Converter
 
 
-# This program accept coordenates in english and in portuguese so it needs two functions for understand and convert the data
+# This program accept coordinates in english and in portuguese so it needs two functions for understand and convert the data
 
 # English one
 
@@ -152,7 +152,7 @@ def conversor(param):
         print("\n\nErro: Out file format not suported")
 
     print("\nResults:\n")
-    print(f"{len(data.Long_decimal)} coordenates converted from the inicial {len(data[f'{y}'])}.\n")
+    print(f"{len(data.Long_decimal)} coordinates converted from the inicial {len(data[f'{y}'])}.\n")
     return
 
 def run():
