@@ -1,9 +1,9 @@
-# Conversor_GMS_Decimal
+# Geoconverter
 #### By Pedro Souza
 
-## Do que se trata?
+## What's about?
 
-Se trata de um simples conversor de coordenadas em Python, que transforma todas as coordenadas listadas em um dataframe de graus, minutos e segundos (GMS) para o formato decimal.
+This python script is useful to transform GSM coordinates into decimal coordinates.
 
 ## Por que foi criado?
 
